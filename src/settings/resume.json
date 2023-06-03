@@ -1,59 +1,59 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
+        "name": "Heical Chandra",
+        "label": "Software Developer",
+        "email": "haical31@gmail.com",
+        "phone": "+6281284509366",
         "picture": "mt.png",
         "x_title": "Hello, I'm",
-        "job1": "Web",
+        "job1": "Software",
         "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Philippines.",
+        "description": "I am a fourth semester student of Informatics Engineering study program from Jakarta State Polytechnic. I am a helpful person, always want to help others while I can do it, and I am very interested to learning new things to improve my abilities and skills. I have experience with many programming languages and frameworks such as React JS, Laravel, Codeigniter, C++, Dart, Kotlin, Java. I have interest in Web development, Mobile Development and also Artificial intelligence.",
+        "summary": "based in Jakarta, Indonesia.",
         "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "url": "https://heical-chandra.my.id/",
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "city": "Jakarta",
+            "country": "Indonesia",
+            "countryCode": "ID",
+            "region": "Jakarta"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "haical31@gmail.com",
+                "url": "mailto:haical31@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "Heical Chandra",
+                "url": "https://www.linkedin.com/in/heical-chandra/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "Dynavx",
+                "url": "https://github.com/Dynavx",
                 "x_icon": "fab fa-github"
             },
             {
                 "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
+                "username": "Dynavx",
+                "url": "https://gitlab.com/dynavx",
                 "x_icon": "fab fa-gitlab"
             },
             {
-                "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
-                "x_icon": "fab fa-telegram-plane"
+                "network": "Instagram",
+                "username": "heical_chandra",
+                "url": "https://www.instagram.com/heical_chandra/",
+                "x_icon": "fab fa-instagram"
             },
             {
                 "network": "Discord",
-                "username": "taniyow#9142",
+                "username": "Dynavx#1138",
                 "url": "https://discord.com",
                 "x_icon": "fab fa-discord"
             }

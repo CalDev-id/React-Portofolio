@@ -8,11 +8,13 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import './Works.css';
 
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+import Portfolio from '../../assets/recentprojects/enfu.png';
+import Veritru from '../../assets/recentprojects/eshop.png';
+import Lofo from '../../assets/recentprojects/websekai.png';
+import Startup from '../../assets/recentprojects/hoyochat.png';
+import Lacalle from '../../assets/recentprojects/ecanteen.png';
+import travelio from '../../assets/recentprojects/travellio.png';
+import meta from '../../assets/recentprojects/meta.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -27,46 +29,61 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
+      title: 'Enfution Undip', 
+      description: `Build and developed with ReactJS and Laravel
+      with fancy design and Responsive in Desktop Or mobile.`,
       alter: 'React Portfolio',
       image: `${Portfolio}`,
+      url: 'https://enfution15.com/',
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
+      title: 'Eshop APP', 
+      description: `An Ecommerce shop application build using Flutter SDK, we can find something we need here.`,
       alter: 'VeriTru Project',
       image: `${Veritru}`,
+      url: 'https://github.com/Dynavx/Eshop-Flutter',
     },
     { 
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
+      title: 'WebSekai', 
+      description: `A Streaming video web application like Netflix, Build with ReactJS and Laravel framework, and also Mysql.`,
       alter: 'LoFo Project',
       image: `${Lofo}`,
+      url: 'https://github.com/Dynavx/Websekai-ReactLaravel',
     },
     { 
       id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
+      title: 'Ecanteen App', 
+      description: `A mobile apps build with Flutter SDK, here we can find food we want to eats, do u like pizza? hehe.`,
       alter: 'Startup Project',
-      image: `${Startup}`,
+      image: `${Lacalle}`,
+      url: 'https://github.com/Dynavx/Ecanteen-Flutter',
     },
     { 
       id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
+      title: 'HoyoChat', 
+      description: `A Social Media Project, Build with ReactJS and Laravel with fancy design and responsive in dekstop or mobile.`,
       alter: 'Startup Project',
-      image: `${Lacalle}`,
+      image: `${Startup}`,
+      url: 'https://github.com/Dynavx/HoyoChat-ReactLaravel',
+    },
+
+    { 
+      id: 6,
+      title: 'Travelio App', 
+      description: `A mobile apps build with Flutter SDK, here we can find of destination we want to go, i want go to berlin btw! hehe.`,
+      alter: 'Startup Project',
+      image: `${travelio}`,
+      url: 'https://github.com/Dynavx/Travellio-Flutter',
+    },
+    { 
+      id: 7,
+      title: 'Metaverse Web', 
+      description: `A website information about metaverse, build with ReactJS.`,
+      alter: 'Startup Project',
+      image: `${meta}`,
+      url: 'https://dynavx.github.io/Metaverse-ReactJS/',
     },
   ]);
 
@@ -85,6 +102,7 @@ export const Works = () => {
               <p className="description">
                 { project.description }
               </p>
+              <a className="url" href={project.url}>Demo</a>
             </div>
           </div>
         ))}

@@ -45,8 +45,8 @@
 }
 @media (max-width: 768px) {
   .contact {
-    width: 70%;
-    margin-left: 5rem;
+    width: 80%;
+    margin-left: 4rem;
     margin-right: 4rem;
     margin-bottom: 7em;
     flex-direction: column;

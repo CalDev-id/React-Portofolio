@@ -17,6 +17,12 @@
 .__img_wrapper {
   width: 60em;
 }
+.url {
+  color: #42bcbc;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 1rem;
+}
 .__img_wrapper > img {
   width: 100%;
 }
@@ -37,6 +43,7 @@
 .description {
   font-size: 1rem;
   width: 60%;
+
 }
 @media (max-width: 1024px) {
   .project {
@@ -57,6 +64,6 @@
     width: 340px;
   }
   .__content_wrapper {
-    width: 70%;
+    width: 100%;
   }
 }
