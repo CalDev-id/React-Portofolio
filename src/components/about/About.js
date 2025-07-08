@@ -20,11 +20,10 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a fourth semester student of Informatics Engineering study program from Jakarta State Polytechnic. I
-                  am a helpful person, always want to help others while I can do it, and I am very interested to learning new
-                  things to improve my abilities and skills. I have experience with many programming languages and frameworks
-                  such as React JS, Laravel, Codeigniter, C++, Dart, Kotlin, Java. I have interest in Web development, Mobile
-                  Development and also Artificial intelligence.`;
+  const aboutme = `I'm ${FirstName} ${LastName}, Final-year Informatics Engineering student with 2+ years of experience in mobile development across iOS (Swift), Android (Kotlin), and
+Flutter. Built 10+ mobile and web applications and deployed 3 apps to the App Store. Skilled in delivering cross-platform and native
+solutions using SwiftUI, Jetpack Compose, and Flutter, with strong attention to performance, usability, and clean architecture. Passionate
+about creating intuitive and scalable mobile experiences that align with user needs and business goals.`;
 
   return (
     <section id="about">
