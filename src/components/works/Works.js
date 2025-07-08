@@ -8,13 +8,13 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import './Works.css';
 
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/enfu.png';
-import Veritru from '../../assets/recentprojects/eshop.png';
-import Lofo from '../../assets/recentprojects/websekai.png';
+import Portfolio from '../../assets/recentprojects/skinalyze.png';
+import Veritru from '../../assets/recentprojects/calorify2.png';
+import Lofo from '../../assets/recentprojects/bloomy.png';
 import Startup from '../../assets/recentprojects/hoyochat.png';
 import Lacalle from '../../assets/recentprojects/ecanteen.png';
 import travelio from '../../assets/recentprojects/travellio.png';
-import meta from '../../assets/recentprojects/meta.png';
+import enfu from '../../assets/recentprojects/enfu.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -29,28 +29,27 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1,
-      title: 'Enfution Undip', 
-      description: `Build and developed with ReactJS and Laravel
-      with fancy design and Responsive in Desktop Or mobile.`,
+      title: 'Skinalyze', 
+      description: `Aplikasi analisis kulit berbasis AI yang mampu mendeteksi jerawat dan memberikan rekomendasi produk. Dirilis di App Store dan dibangun menggunakan SwiftUI, CoreML, dan HealthKit.`,
       alter: 'React Portfolio',
       image: `${Portfolio}`,
-      url: 'https://enfution15.com/',
+      url: 'https://apps.apple.com/id/app/skinalyze/id6736903173',
     },
     { 
       id: 2,
-      title: 'Eshop APP', 
-      description: `An Ecommerce shop application build using Flutter SDK, we can find something we need here.`,
+      title: 'Calorify', 
+      description: `Aplikasi penghitung kalori harian yang terintegrasi dengan HealthKit. Dibangun menggunakan MVVM dan WidgetKit.`,
       alter: 'VeriTru Project',
       image: `${Veritru}`,
-      url: 'https://github.com/Dynavx/Eshop-Flutter',
+      url: 'https://testflight.apple.com/join/QaFFaPzh',
     },
     { 
       id: 3,
-      title: 'WebSekai', 
-      description: `A Streaming video web application like Netflix, Build with ReactJS and Laravel framework, and also Mysql.`,
+      title: 'Bloomy - Blue Economy', 
+      description: `Aplikasi berfokus pada pelestarian laut dan pemantauan kualitas air. Menggunakan model Machine Learning dengan TensorFlow Lite dan Google Maps API.`,
       alter: 'LoFo Project',
       image: `${Lofo}`,
-      url: 'https://github.com/Dynavx/Websekai-ReactLaravel',
+      url: 'https://github.com/Dynavx/bloomy',
     },
     { 
       id: 4,
@@ -62,15 +61,6 @@ export const Works = () => {
     },
     { 
       id: 5,
-      title: 'HoyoChat', 
-      description: `A Social Media Project, Build with ReactJS and Laravel with fancy design and responsive in dekstop or mobile.`,
-      alter: 'Startup Project',
-      image: `${Startup}`,
-      url: 'https://github.com/Dynavx/HoyoChat-ReactLaravel',
-    },
-
-    { 
-      id: 6,
       title: 'Travelio App', 
       description: `A mobile apps build with Flutter SDK, here we can find of destination we want to go, i want go to berlin btw! hehe.`,
       alter: 'Startup Project',
@@ -78,12 +68,13 @@ export const Works = () => {
       url: 'https://github.com/Dynavx/Travellio-Flutter',
     },
     { 
-      id: 7,
-      title: 'Metaverse Web', 
-      description: `A website information about metaverse, build with ReactJS.`,
-      alter: 'Startup Project',
-      image: `${meta}`,
-      url: 'https://dynavx.github.io/Metaverse-ReactJS/',
+      id: 6,
+      title: 'Enfution Undip', 
+      description: `Build and developed with ReactJS and Laravel
+      with fancy design and Responsive in Desktop Or mobile.`,
+      alter: 'React Portfolio',
+      image: `${enfu}`,
+      url: 'https://enfution15.com/',
     },
   ]);
 

@@ -8,7 +8,7 @@
         "x_title": "Hello, I'm",
         "job1": "Software",
         "job2": "Developer",
-        "description": "I am a fourth semester student of Informatics Engineering study program from Jakarta State Polytechnic. I am a helpful person, always want to help others while I can do it, and I am very interested to learning new things to improve my abilities and skills. I have experience with many programming languages and frameworks such as React JS, Laravel, Codeigniter, C++, Dart, Kotlin, Java. I have interest in Web development, Mobile Development and also Artificial intelligence.",
+        "description": "Final-year Informatics Engineering student with 2+ years of experience in mobile development across iOS (Swift), Android (Kotlin), and Flutter. Built 10+ mobile and web applications and deployed 3 apps to the App Store. Skilled in delivering cross-platform and native solutions using SwiftUI, Jetpack Compose, and Flutter, with strong attention to performance, usability, and clean architecture. Passionate about creating intuitive and scalable mobile experiences that align with user needs and business goals.",
         "summary": "based in Jakarta, Indonesia.",
         "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
         "url": "https://heical-chandra.my.id/",
@@ -36,7 +36,7 @@
             {
                 "network": "GitHub",
                 "username": "Dynavx",
-                "url": "https://github.com/Dynavx",
+                "url": "https://github.com/CalDev-id",
                 "x_icon": "fab fa-github"
             },
             {
@@ -48,7 +48,7 @@
             {
                 "network": "Instagram",
                 "username": "heical_chandra",
-                "url": "https://www.instagram.com/heical_chandra/",
+                "url": "https://www.instagram.com/ical.dev/",
                 "x_icon": "fab fa-instagram"
             },
             {
